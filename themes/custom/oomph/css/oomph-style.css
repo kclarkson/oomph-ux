@@ -1,0 +1,21 @@
+
+/* Style for search topics field to stay contained within the block */
+input#edit-field-topics-target-id {
+    width: 100%;
+}
+
+
+
+
+/* Addition of a Hidden Class for Screenreader only content 
+position:absolute; tells the browser to remove the element from the 
+page flow and to begin positioning it. left:-10000px; moves the
+content 10000 pixels to the left.  */
+.may-we-help {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
