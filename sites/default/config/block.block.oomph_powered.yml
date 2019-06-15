@@ -1,0 +1,22 @@
+uuid: 25467c7c-66ab-497d-bad2-882ccb92aac4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - oomph
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: oomph_powered
+theme: oomph
+region: footer_fifth
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

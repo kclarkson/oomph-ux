@@ -1,0 +1,22 @@
+uuid: d01bdaa1-1f51-4d78-8f1e-e0ec5438e83c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - oomph
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: oomph_breadcrumbs
+theme: oomph
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

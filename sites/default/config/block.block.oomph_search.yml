@@ -1,0 +1,22 @@
+uuid: 79580229-a9c0-47f7-8a8b-7807fa212c0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - oomph
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: oomph_search
+theme: oomph
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

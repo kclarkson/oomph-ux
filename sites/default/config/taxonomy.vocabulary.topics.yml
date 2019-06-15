@@ -1,0 +1,8 @@
+uuid: 6cd75c73-8c37-432a-9d02-9faaaececf08
+langcode: en
+status: true
+dependencies: {  }
+name: Topics
+vid: topics
+description: 'Tag for categorize items by various topics'
+weight: 0
